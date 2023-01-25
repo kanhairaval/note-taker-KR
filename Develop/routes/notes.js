@@ -9,8 +9,8 @@ notes.post("/", (req, res) => {
       text,
   }
 
-  readAndAppend(newTip, './db/tips.json');
-    res.json(`Node added`);
+  readAndAppend(newNote, './db/db.json');
+    res.json(`Note added`);
   } else {
     res.error('Error in adding note');
 }});
