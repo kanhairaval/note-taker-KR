@@ -26,6 +26,7 @@ notes.get("/", (req, res) => {
 
 notes.delete("/:id", (req, res) => {
   readAndDelete(req.params.id, './db/db.json')
+  .then((data) => res.json(JSON.parse(data)))
 });
 
 module.exports = notes;

@@ -10,11 +10,6 @@
         "note_id": "b320"
     },
     {
-        "title": "Finish Screenplay",
-        "text": "Threat level midnight",
-        "note_id": "747e"
-    },
-    {
         "title": "Budget Surplus",
         "text": "Buy coat from Burlington coat factory",
         "note_id": "6c3d"
@@ -43,5 +38,10 @@
         "title": "Doctor's Appointment",
         "text": "Ask Oscar about colonoscopy procedure",
         "note_id": "36e7"
+    },
+    {
+        "title": "David Wallace Party",
+        "text": "Sign love contract with Jan",
+        "note_id": "1240"
     }
 ]
