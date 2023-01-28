@@ -24,11 +24,29 @@ const readAndAppend = (content, file) => {
     if (err) {
       console.error(err);
     } else {
-      const parsedData = JSON.parse(data);
+      const parsedData = JSON.parse(data);  // explaination
       parsedData.push(content);
       writeToFile(file, parsedData);
     }
   });
 };
 
-module.exports = { readFromFile, writeToFile, readAndAppend };
+const readAndDelete = (note_id, file) => {
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      console.log(note_id)
+      const newParsedData = parsedData.map(data => {
+        console.log(data.note_id)
+        if (data.note_id != note_id) {
+          return data;
+        }
+      }).filter(note => note != undefined)
+      console.log(newParsedData)
+      writeToFile(file, newParsedData);
+    }
+})}
+
+module.exports = { readFromFile, writeToFile, readAndAppend, readAndDelete };
