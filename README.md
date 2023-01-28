@@ -14,19 +14,19 @@
   - [Demo](Demo)
 
   ## Description
-  This application uses expressjs for routing and creating apis along with vanilla JS. It is a note taking app that allows to store notes in a quick and easy way.
+  This application uses expressjs for routing and creating apis along with vanilla JS. It is a note taking app that allows you to store notes in a quick and easy way.
 
   ## Installation
-  Please, run npm init -y and than install the inquirer modle by typing npm i inquirer@8.2.4
+  Just paste the deployed URL link in your web browser.
 
   ## Usage
-  Just paste the deployment link in your browser and than click get started.
+  Click get started, than start by writing the title and the note text and than hit the save button on the top right to save the note.
 
   ## How-to-contribute
   Just navigate over to the questions section and conatct me to contribute.
 
   ## Testing
-  Well, as a test this entire README has been created using the CLI and the source code of this application, but feel free to clone or fork and do your own test.
+  N/A
 
   ## License
   MIT
