@@ -1,12 +1,47 @@
 [
     {
-        "title": "New note",
-        "text": "new note to delete",
-        "note_id": "05ef"
+        "title": "Pretzel Day",
+        "text": "Get the works pretzel",
+        "note_id": "7253"
     },
     {
-        "title": "Delete this note",
-        "text": "nbfgcb fgcn f\n",
-        "note_id": "495b"
+        "title": "Halloween Party",
+        "text": "Fire Devin",
+        "note_id": "b320"
+    },
+    {
+        "title": "Finish Screenplay",
+        "text": "Threat level midnight",
+        "note_id": "747e"
+    },
+    {
+        "title": "Budget Surplus",
+        "text": "Buy coat from Burlington coat factory",
+        "note_id": "6c3d"
+    },
+    {
+        "title": "New hire orientation",
+        "text": "Make lazy scranton video with Dwight",
+        "note_id": "ef6a"
+    },
+    {
+        "title": "George foreman Grill",
+        "text": "Do not grill foot",
+        "note_id": "b4c1"
+    },
+    {
+        "title": "Call Jan",
+        "text": "Ask Jan if she would like to come to Sandals Jamaica",
+        "note_id": "e26f"
+    },
+    {
+        "title": "HR Meeting",
+        "text": "Stupid Toby's stupid HR brainwashing meeting",
+        "note_id": "bfe8"
+    },
+    {
+        "title": "Doctor's Appointment",
+        "text": "Ask Oscar about colonoscopy procedure",
+        "note_id": "36e7"
     }
 ]
